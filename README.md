@@ -2,14 +2,17 @@ FAVEL
 =
 <i>Fact Validation Ensemble Learner</i>
 
-The vision of this project is to explore the possibility to train a supervised machine learning algorithm based on the results of several fact validation approaches.
+We present FAVEL, a fact-checking approach that relies on ensemble learning to
+combine several knowledge-graph-based fact-checking approaches.
+It is based on an ensemble learning algorithm to combine the prediction results of the different fact-checking
+approaches. The vision of this project is to explore the possibility to train a supervised machine learning algorithm based on the results of several fact validation approaches.
 
 To achieve this vision this project offers:
 * A software which can automatically
     1. Validate a dataset on multiple fact validation approaches
     2. Use the results of the fact validation approaches to train a supervised machine learning algorithm
     3. Validate the dataset on the trained machine learning model
-* Two datasets that can be used for evaluation
+* Four datasets that can be used for evaluation are [**here**](Datasets/README.md).
 
 # Structure of the Repository
 
@@ -88,7 +91,7 @@ If the flag is not set, only the overview is written to disk.
 python3 -m unittest
 ```
 
-## How to run using pre-computed fact-validation approaches veracity scores
+## How to run using pre-computed fact-validation approaches veracity scores in the input folder or cache
 <details><summary> </summary>
     
 * First activate the environment using the command specified above. 
@@ -102,6 +105,17 @@ python3 Software/Favel.py -e eval001 -d FAVEL_ALL_RESULTS/FaVEL/input/ -w -a
 ```
 
 Each experiment can take up to 3 hours depending upon no. of iterations in the input config file.
+
+
+Example:
+
+![Example screenshot1](Evaluation/s1.png)
+
+You can also use the the values stored in .cache file
+
+![Example screenshot1](Evaluation/s2.png)
+
+
 
 </details>
 
@@ -117,7 +131,6 @@ More informations about included datasets [here](Datasets)
 
 ## Fact Validation Approaches
 * <https://github.com/factcheckerr/containers-knowledgestream> offers multiple algorithms
-<!-- * <https://github.com/palaniappan1/COPAAL> offers COPAAL -->
 
 
 ## Acknowledgements
