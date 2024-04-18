@@ -116,7 +116,7 @@ More informations about included datasets [here](Datasets)
 * [Favel-hard](https://github.com/dice-group/favel/favel/tree/main/FinalDataset_Hard) -->
 
 ## Fact Validation Approaches
-* <https://github.com/saschaTrippel/knowledgestream> offers multiple algorithms
+* <https://github.com/factcheckerr/containers-knowledgestream> offers multiple algorithms
 <!-- * <https://github.com/palaniappan1/COPAAL> offers COPAAL -->
 
 
