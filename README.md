@@ -93,8 +93,10 @@ If the flag is not set, only the overview is written to disk.
 python3 -m unittest
 ```
 
-## How to run using pre-computed fact-validation approaches veracity scores in the input folder or cache
+## How to run using pre-computed fact-validation approaches veracity scores
 <details><summary> </summary>
+
+Pre-computed fact-validation approaches veracity scores in the FAVEL_ALL_RESULTS/FaVEL/input folder 
     
 * First activate the environment using the command specified above. 
 * FAVEL_ALL_RESULTS.zip file contains the precomputed veracity scores from individual approaches. 
@@ -113,7 +115,7 @@ Example:
 
 ![Example screenshot1](Evaluation/s1.png)
 
-You can also use the the values stored in .cache file
+You can also use the values stored in the .cache.
 
 ![Example screenshot1](Evaluation/s2.png)
 
