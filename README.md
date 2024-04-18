@@ -112,8 +112,7 @@ Each experiment can take up to 3 hours depending upon no. of iterations in the i
 
 
 Example:
-
-![Example screenshot1](Evaluation/s1.png)
+![Example screenshot1](Evaluation/s4.png)
 
 You can also use the values stored in the .cache.
 
@@ -136,6 +135,10 @@ More informations about included datasets [here](Datasets)
 ## Fact Validation Approaches
 * <https://github.com/factcheckerr/containers-knowledgestream> offers multiple algorithms
 
+<details><summary> </summary>
+Example of running the fact-validation approaches inside docker containers
+![Example screenshot1](Evaluation/s1.png)
+</details>
 
 ## Acknowledgements
 To be made available soon.
