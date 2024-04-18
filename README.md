@@ -2,6 +2,8 @@ FAVEL
 =
 <i>Fact Validation Ensemble Learner</i>
 
+![Overview](Evaluation/s3.png)
+
 We present FAVEL, a fact-checking approach that relies on ensemble learning to
 combine several knowledge-graph-based fact-checking approaches.
 It is based on an ensemble learning algorithm to combine the prediction results of the different fact-checking
