@@ -137,7 +137,9 @@ More informations about included datasets [here](Datasets)
 
 <details><summary> </summary>
 Example of running the fact-validation approaches inside docker containers
+    
 ![Example screenshot1](Evaluation/s1.png)
+
 </details>
 
 ## Acknowledgements
